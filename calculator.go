@@ -22,6 +22,8 @@ func calculate(operator string, a, b int) int {
 			return 0
 		}
 		return a % b
+	case "^":
+		return a ^ b
 	default:
 		fmt.Println("Operator not supported")
 		return 0
